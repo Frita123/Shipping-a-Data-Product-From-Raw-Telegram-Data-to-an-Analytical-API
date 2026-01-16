@@ -1,0 +1,43 @@
+# =========================
+# TELEGRAM SCRAPING
+# =========================
+telethon==1.32.0          # Telegram API client
+python-dotenv==1.0.1      # Load .env variables
+tqdm==4.66.1              # Progress bars for scraping loops
+
+# =========================
+# FASTAPI API
+# =========================
+fastapi==0.103.1          # FastAPI framework
+uvicorn==0.25.0           # ASGI server to run FastAPI
+pydantic==2.3.0           # Data validation / schemas
+sqlalchemy==2.0.23        # ORM for PostgreSQL
+psycopg2-binary==2.9.6    # PostgreSQL driver
+
+# =========================
+# DATA HANDLING
+# =========================
+pandas==2.1.1             # Data manipulation
+numpy==1.26.2             # Numerical operations
+
+# =========================
+# DBT TRANSFORMATIONS
+# =========================
+dbt-postgres==1.6.2       # dbt for PostgreSQL transformations
+
+# =========================
+# IMAGE PROCESSING / YOLO
+# =========================
+opencv-python==4.8.1.78   # Image reading and processing
+ultralytics==8.0.152      # YOLO object detection library
+
+# =========================
+# DAGSTER PIPELINE ORCHESTRATION
+# =========================
+dagster==1.4.11
+dagster-webserver==1.4.11
+
+# =========================
+# LOGGING & UTILITIES
+# =========================
+loguru==0.7.0             # Advanced logging
