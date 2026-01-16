@@ -1,0 +1,77 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pyo
+*.pyd
+*.env
+*.env.*
+.venv/
+venv/
+ENV/
+env/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# =========================
+# VS Code
+# =========================
+.vscode/
+.history/
+*.code-workspace
+
+# =========================
+# Data files
+# =========================
+data/
+*.sqlite
+*.db
+*.csv
+*.json
+*.parquet
+*.h5
+*.hdf5
+*.npz
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+
+# =========================
+# Docker
+# =========================
+*.dockerfile
+docker-compose.override.yml
+docker-compose.override.yaml
+
+# =========================
+# Pytest / Testing
+# =========================
+.pytest_cache/
+nosetests.xml
+coverage.xml
+htmlcov/
+*.cover
+*.coverage
+
+# =========================
+# Jupyter / Notebooks
+# =========================
+.ipynb_checkpoints/
+
+
+# =========================
+# dbt
+# =========================
+dbt_modules/
+target/
+.venv/
+logs/
+
+.env
